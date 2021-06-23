@@ -20,8 +20,8 @@ long previousMillis = 0;
 HardwareSerial co2Serial(2);
 
 // WiFi settings
-#define wifi_ssid "BanzaiNet"
-#define wifi_password "DasIstDasHausVomNikolaus0402"
+#define wifi_ssid "MySSID"
+#define wifi_password "My Wifipassword"
 
 // Certificates for SAP IoT
 const char* rootCA = "-----BEGIN CERTIFICATE-----\n" \
